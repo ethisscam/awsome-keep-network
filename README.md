@@ -1,13 +1,13 @@
 # awsome-keep-network
 A curated list of keep-network related resources
 ## Official site
-- (Official site)[https://keep.network]
-- (Dashboard for staking)[https://dashboard.keep.network]
+- [Official site](https://keep.network)
+- [Dashboard for staking](https://dashboard.keep.network)
 - [Keep-network whitepaper](https://backend.keep.network/whitepaper).[Source code](https://github.com/keep-network/whitepaper).
 - [tbtc whitepaper](https://docs.keep.network/tbtc/index.html).
 
 ## Staking
-- (Official staking documents)[https://keep-network.gitbook.io/staking-documentation/]. Including stake KEEP at keepnetwork and stake ETH at tBTC.
+- [Official staking documents](https://keep-network.gitbook.io/staking-documentation/). Including stake KEEP at keepnetwork and stake ETH at tBTC.
 ## Run random beacon nodes and ecdsa nodes
 - [Official tutorial about running random beacon](https://github.com/keep-network/keep-core/blob/master/docs/run-random-beacon.adoc)
 - [A tool](https://keeptools.org/) about how to run nodes and some github repositories.[Source code] (https://github.com/kferretcrypto/keep-tools). Made by kferret

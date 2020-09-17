@@ -2,7 +2,7 @@
 A curated list of keep-network related resources
 
 ## Staking
-- official staking documents[https://keep-network.gitbook.io/staking-documentation/]. Include stake KEEP at keepnetwork and stake ETH at tBTC.
+- (official staking documents)[https://keep-network.gitbook.io/staking-documentation/]. Including stake KEEP at keepnetwork and stake ETH at tBTC.
 ## Run random beacon nodes and ecdsa nodes
 - [A tool](https://keeptools.org/) about how to run nodes and some github repositories.[Source code] (https://github.com/kferretcrypto/keep-tools). Made by kferret
 #5310

@@ -15,6 +15,28 @@ A curated list of keep-network and tBTC dapp related resources. Made by a commun
 - KeepRandomBeaconService [v1.3.0](https://etherscan.io/address/0x50510e691c90ea098e3fdd23c311731bf394aafd), old version [v1.1.2](https://etherscan.io/address/0x70F2202D85a4F0Cad36e978976f84E982920A624) the random beacon service contract proxy that is the primary interaction point for users of the random beacon. It proxies to the v1 implementation.
 - KeepRandomBeaconServiceImplV1 [v1.3.0](https://etherscan.io/address/0x09959798b95d00a3183d20fac298e4594e599eab), old version[v1.1.2](https://etherscan.io/address/0x70F2202D85a4F0Cad36e978976f84E982920A624), the random beacon service contract proxy's first implementation version. It exposes the requestRelayEntry() and requestRelayEntry(address callbackContract, uint256 callbackGas) methods for requesting random beacon entries for off-chain observation or on-chain callback interaction. Service contracts have no authority to slash KEEP stakes, and are generally not part of operator contract interactions---they are solely meant for users of the beacon. Read more about operator and service contracts in the Keep spec's section on upgrade management.
 
+### Staking
+- [Official staking documents](https://keep-network.gitbook.io/staking-documentation/). Including stake KEEP at keepnetwork and stake ETH at tBTC.
+- [tBTC risk - liquidation and slashing details](https://hackmd.io/OzIeyWcfTVO69zIF67XCkg). Made by ssh#4098
+- [KeepStakedropRisks](https://hackmd.io/@LayerState/KeepStakedropRisks). Made by state#5254
+
+### Run beacon nodes
+- [Official tutorial about running random beacon](https://github.com/keep-network/keep-core/blob/master/docs/run-random-beacon.adoc)
+- [A tool](https://keeptools.org/) about how to run nodes and some github repositories.[Source code](https://github.com/kferretcrypto/keep-tools). Made by kferret#5310
+- A [detailed guide](https://medium.com/@nickgrego/step-by-step-guide-for-installing-both-ecdsa-beacon-nodes-on-vps-with-100-voucher-db930ab2a667) using Vultr as a vps. Made by Besides using infura ethereum nodes mentioned at step 5, you can also use a public nodes running by community members(Danil Ushakov #5735 and whataday2day #1271).
+```
+URL = "wss://ropsten.pfk2020.top/wss"
+URLRPC = "https://ropsten.pfk2020.top/rpc"
+```
+### Statics
+- [tBTC and KEEP token dashborad made with duneanalytics](https://explore.duneanalytics.com/dashboard/tbtc)
+- [A website of KEEP token dashboard](https://keepexplorer.com/), the data comes from [thegraph](https://thegraph.com/explorer/subgraph/suntzu93/keepnetwork).
+- [Another website of KEEP token dashboard](https://keep-explorer.herokuapp.com/keep/blocks). It shows more metrics about keep token such as grants data.
+
+### FAQ
+- [About staking](https://keep-network.gitbook.io/staking-documentation/help/faq)
+----------------------------------------------------------------------------------------------------
+
 ## tBTC dapp
 ### Official site
 - [tBTC official site](https://tbtc.network/)
@@ -33,6 +55,34 @@ Excerpt from [Mainnet v1.1.0 release](https://github.com/keep-network/tbtc/relea
 - [FeeRebateToken](https://etherscan.io/address/0xaf3fFF06b75f99352d8C2a3C4beF1339a2f94789) is an ERC721 non-fungible token that represents a claim to a rebate on the signing fee for depositors who exchange their deposit to mint fungible TBTC tokens. These depositors have the signing fee for their deposit escrowed at minting time, but if the deposit is redeemed before the end of its 6 month term, they are reimbursed that escrowed amount.
 - [TBTCToken](https://etherscan.io/address/0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa) is the ERC20 TBTC token. 18 decimals of precision packed into a beautiful 1-to-1 BTC backed token.
 
+### Staking
+- [Official staking documents](https://keep-network.gitbook.io/staking-documentation/). Including stake KEEP at keepnetwork and stake ETH at tBTC.
+- [tBTC risk - liquidation and slashing details](https://hackmd.io/OzIeyWcfTVO69zIF67XCkg). Made by ssh#4098
+- [KeepStakedropRisks](https://hackmd.io/@LayerState/KeepStakedropRisks). Made by state#5254
+
+### Statics
+- [tBTC and KEEP token dashborad made with duneanalytics](https://explore.duneanalytics.com/dashboard/tbtc)
+- [A website of KEEP token dashboard](https://keepexplorer.com/), the data comes from [thegraph](https://thegraph.com/explorer/subgraph/suntzu93/keepnetwork).
+- [Another website of KEEP token dashboard](https://keep-explorer.herokuapp.com/keep/blocks). It shows more metrics about keep token such as grants data.
+
+### Run ecsda nodes
+- [Official tutorial about running random beacon](https://github.com/keep-network/keep-core/blob/master/docs/run-random-beacon.adoc)
+- [A tool](https://keeptools.org/) about how to run nodes and some github repositories.[Source code](https://github.com/kferretcrypto/keep-tools). Made by kferret#5310
+- A [detailed guide](https://medium.com/@nickgrego/step-by-step-guide-for-installing-both-ecdsa-beacon-nodes-on-vps-with-100-voucher-db930ab2a667) using Vultr as a vps. Made by Besides using infura ethereum nodes mentioned at step 5, you can also use a public nodes running by community members(Danil Ushakov #5735 and whataday2day #1271).
+```
+URL = "wss://ropsten.pfk2020.top/wss"
+URLRPC = "https://ropsten.pfk2020.top/rpc"
+```
+### FAQ
+- [tBTC question](https://tbtc.network/faq)
+
+### Competitor
+- [wBTC](https://wbtc.network/)
+- [renBTC](https://bridge.renproject.io/)
+- [tBTC vs wBTC](https://medium.com/@yurataro2055/btc-on-ethereum-tbtc-vs-wbtc-317edf1da79f)
+- [tBTC vs renBTC](https://telegra.ph/High-level-differences-between-renBTC-and-tBTC-05-26)
+
+
 ## Program
 ### PFK
 - [September pfk announcement](https://blog.keep.network/what-james-prestwich-is-looking-for-in-septembers-playing-for-keeps-7a980d9520b0 )
@@ -41,34 +91,6 @@ Excerpt from [Mainnet v1.1.0 release](https://github.com/keep-network/tbtc/relea
 
 ### Stakedrop
 - [Keep network stakedrop](https://medium.com/@chdru/keep-network-stakedrop-3e63355a18ec). Made by chandru#2037
-
-## Staking
-- [Official staking documents](https://keep-network.gitbook.io/staking-documentation/). Including stake KEEP at keepnetwork and stake ETH at tBTC.
-- [tBTC risk - liquidation and slashing details](https://hackmd.io/OzIeyWcfTVO69zIF67XCkg). Made by ssh#4098
-- [KeepStakedropRisks](https://hackmd.io/@LayerState/KeepStakedropRisks). Made by state#5254
-
-## Run random beacon nodes and ecdsa nodes
-- [Official tutorial about running random beacon](https://github.com/keep-network/keep-core/blob/master/docs/run-random-beacon.adoc)
-- [A tool](https://keeptools.org/) about how to run nodes and some github repositories.[Source code](https://github.com/kferretcrypto/keep-tools). Made by kferret#5310
-- A [detailed guide](https://medium.com/@nickgrego/step-by-step-guide-for-installing-both-ecdsa-beacon-nodes-on-vps-with-100-voucher-db930ab2a667) using Vultr as a vps. Made by Besides using infura ethereum nodes mentioned at step 5, you can also use a public nodes running by community members(Danil Ushakov #5735 and whataday2day #1271).
-```
-URL = "wss://ropsten.pfk2020.top/wss"
-URLRPC = "https://ropsten.pfk2020.top/rpc"
-```
-## FAQ
-- [About staking](https://keep-network.gitbook.io/staking-documentation/help/faq)
-- [tBTC question](https://tbtc.network/faq)
-
-## Statics of keep-network
-- [tBTC and KEEP token dashborad made with duneanalytics](https://explore.duneanalytics.com/dashboard/tbtc)
-- [A website of KEEP token dashboard](https://keepexplorer.com/), the data comes from [thegraph](https://thegraph.com/explorer/subgraph/suntzu93/keepnetwork).
-- [Another website of KEEP token dashboard](https://keep-explorer.herokuapp.com/keep/blocks). It shows more metrics about keep token such as grants data.
-
-## Competitor
-- [wBTC](https://wbtc.network/)
-- [renBTC](https://bridge.renproject.io/)
-- [tBTC vs wBTC](https://medium.com/@yurataro2055/btc-on-ethereum-tbtc-vs-wbtc-317edf1da79f)
-- [tBTC vs renBTC](https://telegra.ph/High-level-differences-between-renBTC-and-tBTC-05-26)
 
 ## Community
 - [discord](https://discordapp.com/invite/wYezN7v)

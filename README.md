@@ -1,15 +1,28 @@
 # awsome-keep-network
-A curated list of keep-network related resources. Made by a community member tian7.eth#5457
+A curated list of keep-network and tBTC dapp related resources. Made by a community member tian7.eth#5457
 
-## Official site
+## keep-network
+### Official site
 - [Keep-network official site](https://keep.network)
+- [Dashboard for staking KEEP](https://dashboard.keep.network)
+- [Keep-network whitepaper](https://backend.keep.network/whitepaper).[Source code](https://github.com/keep-network/whitepaper).
+### Mainnet contracts
+- KeepRegistry [v1.0.1](https://etherscan.io/address/0x1a9589F56c969d6b0D3787ea02322476eAd3fB05), the main Keep governance contract. Governance in Keep is opt-in per contract, read more in the Keep spec's section on upgrade management.
+- KeepToken [v1.0.1](http://etherscan.io/address/0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC), Keep's work token. Read more about the token's role on the Keep blog.
+- TokenGrant [v1.0.1](https://etherscan.io/address/0x175989c71fd023d580c65f5dc214002687ff88b7), Keep's token grant management contract. This contract handles details of grant lockups, unlocking, and withdrawal.
+- TokenStaking [v1.3.0](https://etherscan.io/address/0x1293a54e160d1cd7075487898d65266081a15458), old version [v1.0.1](https://etherscan.io/address/0x6D1140a8c8e6Fac242652F0a5A8171b898c67600), Keep's token staking contract. This contract handles the process of delegating tokens to operator accounts, managing beneficiary accounts, and authorizing operator contracts. Read more about this in the Keep spec's section on staking.
+- KeepRandomBeaconOperator [v1.3.0](https://etherscan.io/address/0xdf708431162ba247ddae362d2c919e0fbafcf9de), old version [v1.1.2](https://etherscan.io/address/0x70F2202D85a4F0Cad36e978976f84E982920A624), the random beacon operator contract that is the primary interaction point for random beacon clients. This is the only contract that authorizers need to authorize to allow their operators to operate on the random beacon, and is currently the only contract that (with authorizer opt-in) can slash KEEP token stakes. Read more about operator and service contracts in the Keep spec's section on upgrade management.
+- KeepRandomBeaconService [v1.3.0](https://etherscan.io/address/0x50510e691c90ea098e3fdd23c311731bf394aafd), old version [v1.1.2](https://etherscan.io/address/0x70F2202D85a4F0Cad36e978976f84E982920A624) the random beacon service contract proxy that is the primary interaction point for users of the random beacon. It proxies to the v1 implementation.
+- KeepRandomBeaconServiceImplV1 [v1.3.0](https://etherscan.io/address/0x09959798b95d00a3183d20fac298e4594e599eab), old version[v1.1.2](https://etherscan.io/address/0x70F2202D85a4F0Cad36e978976f84E982920A624), the random beacon service contract proxy's first implementation version. It exposes the requestRelayEntry() and requestRelayEntry(address callbackContract, uint256 callbackGas) methods for requesting random beacon entries for off-chain observation or on-chain callback interaction. Service contracts have no authority to slash KEEP stakes, and are generally not part of operator contract interactions---they are solely meant for users of the beacon. Read more about operator and service contracts in the Keep spec's section on upgrade management.
+
+## tBTC dapp
+### Official site
 - [tBTC official site](https://tbtc.network/)
 - [tBTC dapp](https://dapp.tbtc.network/)
-- [Dashboard for staking](https://dashboard.keep.network)
-- [Keep-network whitepaper](https://backend.keep.network/whitepaper).[Source code](https://github.com/keep-network/whitepaper).
+- [Dashboard for staking ETH](https://dashboard.keep.network)
 - [tbtc whitepaper](https://docs.keep.network/tbtc/index.html).
 
-## Mainnet Contracts
+### Mainnet contracts
 Excerpt from [Mainnet v1.1.0 release](https://github.com/keep-network/tbtc/releases/tag/solidity%2Fv1.1.0).
 
 - [TBTCSystem](https://etherscan.io/address/0xe20a5c79b39bc8c363f0f49adcfa82c2a01ab64a) is the tBTC system contract. It captures the current governable parameters, like collateralization thresholds, available lot sizes, and Keep configurations, and mediates access to Maker's ETHBTC Medianizer for the remainder of the system. All events related to tBTC are

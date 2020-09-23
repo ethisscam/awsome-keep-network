@@ -1,6 +1,9 @@
 # awsome-keep-network
 A curated list of keep-network and tBTC dapp related resources. Made by a community member tian7.eth#5457
 
+- [keep-network](#keep-network)
+- [tBTC](#tBTC)
+
 ## keep-network
 ### Official site
 - [Keep-network official site](https://keep.network)
@@ -37,7 +40,7 @@ URLRPC = "https://ropsten.pfk2020.top/rpc"
 - [About staking](https://keep-network.gitbook.io/staking-documentation/help/faq)
 ----------------------------------------------------------------------------------------------------
 
-## tBTC dapp
+## tBTC
 ### Official site
 - [tBTC official site](https://tbtc.network/)
 - [tBTC dapp](https://dapp.tbtc.network/)

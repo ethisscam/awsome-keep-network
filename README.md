@@ -37,6 +37,10 @@ URLRPC = "https://ropsten.pfk2020.top/rpc"
 - [A website of KEEP token dashboard](https://keepexplorer.com/), the data comes from [thegraph](https://thegraph.com/explorer/subgraph/suntzu93/keepnetwork).
 - [Another website of KEEP token dashboard](https://keep-explorer.herokuapp.com/keep/blocks). It shows more metrics about keep token such as grants data.
 
+### KEEP token
+- [Official transparency report](https://blog.keep.network/transparency-at-keep-c7f4a0be3603)
+- [Messari's report](https://messari.io/asset/keep-network/profile)
+
 ### FAQ
 - [About staking](https://keep-network.gitbook.io/staking-documentation/help/faq)
 ----------------------------------------------------------------------------------------------------
@@ -65,6 +69,7 @@ Excerpt from [Mainnet v1.1.0 release](https://github.com/keep-network/tbtc/relea
 - [KeepStakedropRisks](https://hackmd.io/@LayerState/KeepStakedropRisks). Made by state#5254
 
 ### Statics
+- [tBTC operators monitor tool](https://allthekeeps.com/deposits)
 - [tBTC and KEEP token dashborad made with duneanalytics](https://explore.duneanalytics.com/dashboard/tbtc)
 - [A website of KEEP token dashboard](https://keepexplorer.com/), the data comes from [thegraph](https://thegraph.com/explorer/subgraph/suntzu93/keepnetwork).
 - [Another website of KEEP token dashboard](https://keep-explorer.herokuapp.com/keep/blocks). It shows more metrics about keep token such as grants data.

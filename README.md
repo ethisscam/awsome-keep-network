@@ -98,5 +98,5 @@ URLRPC = "https://ropsten.pfk2020.top/rpc"
 ## Community
 - [discord](https://discordapp.com/invite/wYezN7v)
 # other-curated-lists
-## https://keep.community/tbtc/use-tbtc#tbtc-contract-watcher made by badabam #7526
-## https://estebank97.github.io/Keep-Node-Docs/#/ made by EstebanK #8544
+- https://keep.community/tbtc/use-tbtc#tbtc-contract-watcher made by badabam #7526
+- https://estebank97.github.io/Keep-Node-Docs/#/ made by EstebanK #8544

@@ -3,6 +3,7 @@ A curated list of keep-network and tBTC dapp related resources. Made by a commun
 
 - [keep-network](#keep-network)
 - [tBTC](#tBTC)
+- [other curated lists(my competitor)](#other-curated-lists)
 
 ## keep-network
 ### Official site
@@ -85,7 +86,6 @@ URLRPC = "https://ropsten.pfk2020.top/rpc"
 - [tBTC vs wBTC](https://medium.com/@yurataro2055/btc-on-ethereum-tbtc-vs-wbtc-317edf1da79f)
 - [tBTC vs renBTC](https://telegra.ph/High-level-differences-between-renBTC-and-tBTC-05-26)
 
-
 ## Program
 ### PFK
 - [September pfk announcement](https://blog.keep.network/what-james-prestwich-is-looking-for-in-septembers-playing-for-keeps-7a980d9520b0 )
@@ -97,3 +97,6 @@ URLRPC = "https://ropsten.pfk2020.top/rpc"
 
 ## Community
 - [discord](https://discordapp.com/invite/wYezN7v)
+# other-curated-lists
+## https://keep.community/tbtc/use-tbtc#tbtc-contract-watcher made by badabam #7526
+## https://estebank97.github.io/Keep-Node-Docs/#/ made by EstebanK #8544

@@ -32,6 +32,8 @@ A curated list of keep-network and tBTC dapp related resources. Made by a commun
 URL = "wss://ropsten.pfk2020.top/wss"
 URLRPC = "https://ropsten.pfk2020.top/rpc"
 ```
+### Monitor
+- https://keepnode.app/
 ### Statics
 - [tBTC and KEEP token dashborad made with duneanalytics](https://explore.duneanalytics.com/dashboard/tbtc)
 - [A website of KEEP token dashboard](https://keepexplorer.com/), the data comes from [thegraph](https://thegraph.com/explorer/subgraph/suntzu93/keepnetwork).
@@ -69,7 +71,8 @@ Excerpt from [Mainnet v1.1.0 release](https://github.com/keep-network/tbtc/relea
 - [KeepStakedropRisks](https://hackmd.io/@LayerState/KeepStakedropRisks). Made by state#5254
 
 ### Statics
-- [tBTC operators monitor tool](https://allthekeeps.com/deposits)
+- [deposit explorer](https://keep-deposit.com/#/). Source code:[here](https://github.com/Allive/ETH_Contract_status). Explorer for deposits in progress (tracking Bitcoin, Ethereum state and proofs) Made by witter#2981
+- [tBTC operators monitor tool](https://allthekeeps.com/deposits). Source code:[here](https://github.com/miracle2k/allthekeeps). You can see deposite and operators status. 
 - [tBTC and KEEP token dashborad made with duneanalytics](https://explore.duneanalytics.com/dashboard/tbtc)
 - [A website of KEEP token dashboard](https://keepexplorer.com/), the data comes from [thegraph](https://thegraph.com/explorer/subgraph/suntzu93/keepnetwork).
 - [Another website of KEEP token dashboard](https://keep-explorer.herokuapp.com/keep/blocks). It shows more metrics about keep token such as grants data.
@@ -82,6 +85,7 @@ Excerpt from [Mainnet v1.1.0 release](https://github.com/keep-network/tbtc/relea
 URL = "wss://ropsten.pfk2020.top/wss"
 URLRPC = "https://ropsten.pfk2020.top/rpc"
 ```
+
 ### FAQ
 - [tBTC question](https://tbtc.network/faq)
 

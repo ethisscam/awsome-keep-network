@@ -28,3 +28,9 @@
  清算机制
  
 所谓清算，即在公开市场出售绑定的ETH来回购tBTC,进而保证系统的抵押率趋于150%（因为抵押率低的都被清算了） 。回购从
+
+[清算案例](https://etherscan.io/tx/0x5871064ddf0a753611e4f9f8c7c507e102be3d494b0a2039186768bd99fae8de)
+当用户申请赎回比特币的时候，由于未能及时响应，导致触发清算。
+
+第一步：https://etherscan.io/tx/0x5871064ddf0a753611e4f9f8c7c507e102be3d494b0a2039186768bd99fae8de 
+在该交易中，调用notifyRedemptionSignatureTimedOut函数，将keepbonding合约中的（155.37乘3）个ETH转入到deposit合约中。

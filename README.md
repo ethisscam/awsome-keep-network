@@ -71,8 +71,8 @@ Excerpt from [Mainnet v1.1.0 release](https://github.com/keep-network/tbtc/relea
 - [KeepStakedropRisks](https://hackmd.io/@LayerState/KeepStakedropRisks). Made by state#5254
 
 ### Statics
-- [deposit explorer](https://keep-deposit.com/#/). Source code:[here](https://github.com/Allive/ETH_Contract_status). Explorer for deposits in progress (tracking Bitcoin, Ethereum state and proofs) Made by witter#2981
-- [tBTC operators monitor tool](https://allthekeeps.com/deposits). Source code:[here](https://github.com/miracle2k/allthekeeps). You can see deposite and operators status. 
+- [deposit explorer](https://keep-deposit.com/#/). Source code:[here](https://github.com/Allive/ETH_Contract_status). Explorer for deposits in progress (tracking Bitcoin, Ethereum state and proofs)  Made by witter#2981
+- [tBTC operators monitor tool](https://allthekeeps.com/deposits). Source code:[here](https://github.com/miracle2k/allthekeeps). With [thegraph](https://thegraph.com/explorer/subgraph/miracle2k/keep-network) You can see deposite and operators status.Made by  pythonmetaclass#4871
 - [tBTC and KEEP token dashborad made with duneanalytics](https://explore.duneanalytics.com/dashboard/tbtc)
 - [A website of KEEP token dashboard](https://keepexplorer.com/), the data comes from [thegraph](https://thegraph.com/explorer/subgraph/suntzu93/keepnetwork).
 - [Another website of KEEP token dashboard](https://keep-explorer.herokuapp.com/keep/blocks). It shows more metrics about keep token such as grants data.

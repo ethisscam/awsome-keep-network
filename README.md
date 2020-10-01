@@ -55,6 +55,12 @@ URLRPC = "https://ropsten.pfk2020.top/rpc"
 - [tbtc whitepaper](https://docs.keep.network/tbtc/index.html).
 
 ### Mainnet contracts
+I put ecdsa contrats here.
+Excerpt from [ecdsa release v1.2.1](https://github.com/keep-network/keep-ecdsa/releases).
+
+- [BondedECDSAKeepFactory](https://etherscan.io/address/0xA7d9E842EFB252389d613dA88EDa3731512e40bD): A new version of the BondedECDSAKeepFactory contract that allows allows applications (like tBTC) to specify a sortition pool's minimum bondable value (this is currently set to 20 ETH for this release) and prepares the contract for upcoming ETH-only operator support.
+- [KeepBonding](https://etherscan.io/address/0x27321f84704a599ab740281e285cc4463d89a3d5): A new version of the KeepBonding contract that allows deauthorizing sortition pools, enables the withdrawal of unbonded value by the grantee of a token grant (note that unbonded value is still sent to the beneficiary), and finally prepares the contract for upcoming ETH-only operator support.
+
 Excerpt from [Mainnet v1.1.0 release](https://github.com/keep-network/tbtc/releases/tag/solidity%2Fv1.1.0).
 
 - [TBTCSystem](https://etherscan.io/address/0xe20a5c79b39bc8c363f0f49adcfa82c2a01ab64a) is the tBTC system contract. It captures the current governable parameters, like collateralization thresholds, available lot sizes, and Keep configurations, and mediates access to Maker's ETHBTC Medianizer for the remainder of the system. All events related to tBTC are

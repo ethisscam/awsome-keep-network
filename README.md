@@ -77,6 +77,8 @@ Excerpt from [Mainnet v1.1.0 release](https://github.com/keep-network/tbtc/relea
 - [KeepStakedropRisks](https://hackmd.io/@LayerState/KeepStakedropRisks). Made by state#5254
 
 ### Statics
+- [allthekeeps](https://allthekeeps.com/deposits). A website for deposits/operators/users etc.
+- [keepscan](https://keepscan.com/). A website for tbtc dashboard.
 - (https://github.com/Mexplo/tbtc_explorer)
 - [deposit explorer](https://keep-deposit.com/#/). Source code:[here](https://github.com/Allive/ETH_Contract_status). Explorer for deposits in progress (tracking Bitcoin, Ethereum state and proofs)  Made by witter#2981
 - [tBTC operators monitor tool](https://allthekeeps.com/deposits). Source code:[here](https://github.com/miracle2k/allthekeeps). With [thegraph](https://thegraph.com/explorer/subgraph/miracle2k/keep-network) You can see deposite and operators status.Made by  pythonmetaclass#4871

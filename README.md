@@ -104,6 +104,16 @@ URLRPC = "https://ropsten.pfk2020.top/rpc"
 - [tBTC vs wBTC](https://medium.com/@yurataro2055/btc-on-ethereum-tbtc-vs-wbtc-317edf1da79f)
 - [tBTC vs renBTC](https://telegra.ph/High-level-differences-between-renBTC-and-tBTC-05-26)
 
+### Ecosystem
+#### DEX
+- [Uniswap TBTC-ETH Pair](https://app.uniswap.org/#/swap?inputCurrency=0x8daebade922df735c38c80c7ebd708af50815faa&outputCurrency=ETH)
+- [Uniswap TBTC-USDT Pair](https://app.uniswap.org/#/swap?inputCurrency=0x8daebade922df735c38c80c7ebd708af50815faa&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7)
+- [Uniswap WBTC-TBTC Pair](https://app.uniswap.org/#/swap?inputCurrency=0x2260fac5e5542a773aa44fbcfedf7c193bc2c599&outputCurrency=0x8daebade922df735c38c80c7ebd708af50815faa)
+- [Curve](https://signal.curve.fi/#/curve/proposal/QmQ6bqS9JjNvTZf4a8CRDeVad3g5r6C2WZiVC3hgcZVMz4). The feedback has been passed and the proposal is [here](https://gov.curve.fi/t/request-for-feedback-options-for-tbtc-pools/841)
+- [Sushiswap](https://sushiswap.fi/pair/0x2dbc7dd86c6cd87b525bd54ea73ebeebbc307f68). There is a tBTC/wBTC trading pair and you can farm sushi by deposting tBTC.
+#### Lending platform
+#### Insurance
+
 ## Program
 ### PFK
 - [September pfk announcement](https://blog.keep.network/what-james-prestwich-is-looking-for-in-septembers-playing-for-keeps-7a980d9520b0 )

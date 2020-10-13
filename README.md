@@ -11,6 +11,7 @@ A curated list of keep-network and tBTC dapp related resources. Made by a commun
 - [Dashboard for staking KEEP](https://dashboard.keep.network)
 - [Keep-network whitepaper](https://backend.keep.network/whitepaper).[Source code](https://github.com/keep-network/whitepaper).
 ### Mainnet contracts
+- You can find all contracts [here](https://gist.github.com/knarz/034654b56096f99aa857bdaebe6c8710)
 - KeepRegistry [v1.0.1](https://etherscan.io/address/0x1a9589F56c969d6b0D3787ea02322476eAd3fB05), the main Keep governance contract. Governance in Keep is opt-in per contract, read more in the Keep spec's section on upgrade management.
 - KeepToken [v1.0.1](http://etherscan.io/address/0x85Eee30c52B0b379b046Fb0F85F4f3Dc3009aFEC), Keep's work token. Read more about the token's role on the Keep blog.
 - TokenGrant [v1.0.1](https://etherscan.io/address/0x175989c71fd023d580c65f5dc214002687ff88b7), Keep's token grant management contract. This contract handles details of grant lockups, unlocking, and withdrawal.

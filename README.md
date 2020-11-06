@@ -99,6 +99,8 @@ URLRPC = "https://ropsten.pfk2020.top/rpc"
 ### FAQ
 - [tBTC question](https://tbtc.network/faq)
 
+### Articles
+- [An article analysing liquidation mechnism by bisontrails.]https://bisontrails.co/keep-active-participation/
 ### Competitor
 - [wBTC](https://wbtc.network/)
 - [renBTC](https://bridge.renproject.io/)

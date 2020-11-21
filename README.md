@@ -46,6 +46,9 @@ URLRPC = "https://ropsten.pfk2020.top/rpc"
 
 ### FAQ
 - [About staking](https://keep-network.gitbook.io/staking-documentation/help/faq)
+
+### Trading
+- [Uniswap KEEP/ETH pair](https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x85eee30c52b0b379b046fb0f85f4f3dc3009afec)
 ----------------------------------------------------------------------------------------------------
 
 ## tBTC
